@@ -46,6 +46,8 @@
 #include <phNxpLog.h>
 #include "sparse_crc32.h"
 
+#pragma clang diagnostic ignored "-Wimplicit-fallthrough"
+
 #if GENERIC_TARGET
 const char alternative_config_path[] = "/data/vendor/nfc/";
 #else
